@@ -29,7 +29,7 @@ const Register = () => {
                <input type="text" placeholder='Full Name' name='name' value={userData.name}  onChange={changeInputHandler} autofocus/>
                <input type="text" placeholder='Email' name='email' value={userData.email}  onChange={changeInputHandler}/>
                <input type="password" placeholder='Password' name='password' value={userData.password}  onChange={changeInputHandler}/>
-               <input type="password" placeholder='Confirm Password' name='password2' value={userData.password} onChange={changeInputHandler} />
+               <input type="password" placeholder='Confirm Password' name='password2' value={userData.password2} onChange={changeInputHandler} />
                
                <button type='submit' className="btn primary">
                   Register
